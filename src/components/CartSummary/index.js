@@ -19,7 +19,7 @@ export default ({
         name="Gatsby Store"
         amount={amount}
         currency={currency || 'GBP'}
-        stripeKey={process.env.STRIPE_PUBLISHABLE_KEY || ''}
+        stripeKey={process.env.GATSBY_STRIPE_PUBLISHABLE_KEY || ''}
         shippingAddress={false}
         billingAddress
         zipCode
