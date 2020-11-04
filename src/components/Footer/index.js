@@ -1,19 +1,20 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import {Segment, Container, Grid, List, Header} from 'semantic-ui-react'
+import ShoppingCartIcon from './ShoppingCartIcon'
 
 const twitterLink = (
-  <a href="https://twitter.com/parmsang" alt="twitter link">
+  <a href="https://twitter.com/qualityworkscg" alt="twitter link">
     Twitter
   </a>
 )
 const facebookLink = (
-  <a href="https://facebook.com/" alt="facebook link">
+  <a href="https://facebook.com/qualityworksconsulting/" alt="facebook link">
     Facebook
   </a>
 )
 const emailLink = (
-  <a href="mailto:john@doe.com" alt="email link">
+  <a href="mailto:info@qualityworkscg.com" alt="email link">
     Email
   </a>
 )
@@ -46,6 +47,12 @@ const Footer = () => (
             <List>
               <List.Item as={Link} to="/">
                 Our Products
+              </List.Item>
+              <List.Item as={Link} to="cart">
+                Your Account
+              </List.Item>
+              <List.Item as={Link} to="cart">
+                <ShoppingCartIcon cartCount="4" name="Cart" />
               </List.Item>
             </List>
           </Grid.Column>

@@ -21,7 +21,7 @@ const DesktopMenu = ({location: {pathname}, token, cartCount, signout}) => {
           header
         >
           <Logo />
-          QW Test Store
+          QualityCamp Store
         </Menu.Item>
         {token ? (
           <Menu.Menu position="right">
@@ -64,6 +64,13 @@ const DesktopMenu = ({location: {pathname}, token, cartCount, signout}) => {
               active={activeItem === withPrefix('/cart/')}
             >
               <ShoppingCartIcon cartCount={cartCount} name="Cart" />
+            </Menu.Item>
+            <Menu.Item
+              as={Link}
+              to="/settings/"
+              active={activeItem === withPrefix('/settings/')}
+            >
+              <ShoppingCartIcon cartCount={cartCount} name="Settings" />
             </Menu.Item>
           </Menu.Menu>
         )}

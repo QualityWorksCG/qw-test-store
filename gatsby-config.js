@@ -4,10 +4,10 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby starter ecommerce',
-    author: 'Parminder Sanghera',
+    title: 'QualityWorks Ecommerce Store',
+    author: 'Julia Pottinger with template from Parminder Sanghera',
     description: 'A starter e-commerce site made using Gatsby.',
-    siteUrl: 'https://parmsang.github.io/gatsby-starter-ecommerce/',
+    siteUrl: 'https://qualitycamp.netlify.app/',
   },
   pathPrefix: '/gatsby-starter-ecommerce',
   plugins: [

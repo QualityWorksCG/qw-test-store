@@ -1,6 +1,7 @@
 import React from 'react'
 import {Image} from 'semantic-ui-react'
 
+import moltin from '../../images/moltin-light-hex.svg.svg'
 import qualityLogo from '../../images/QualityWorksLogo.jpg'
 
 const Logo = () => (
@@ -8,7 +9,7 @@ const Logo = () => (
     size="mini"
     src={qualityLogo}
     style={{marginRight: '1.5em'}}
-    alt="I love Lamp"
+    alt="I love Quality Lamps"
   />
 )
 

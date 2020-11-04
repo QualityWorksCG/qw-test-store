@@ -54,6 +54,7 @@ const AddToCart = ({productId}) => {
   return (
     <>
       <Input
+        style={{width: '30%'}}
         type="number"
         placeholder="Quantity"
         value={quantity}
